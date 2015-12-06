@@ -1,6 +1,6 @@
 USER=tronpaul
 
 build:
-	docker build -t ${USER}/srcds .
+	docker build -t ${USER}/steamcmd .
 
 .PHONY: build
